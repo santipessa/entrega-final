@@ -1,0 +1,138 @@
+ul {
+  font-size: 20px; }
+  ul li a {
+    text-decoration: none; }
+    ul li a:hover {
+      color: #ffc107 !important;
+      font-size: 25px;
+      text-shadow: 3px 3px #ee553a; }
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
+
+#logo {
+  max-width: 100px; }
+
+.portada {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.11)), url(../fotos/fondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; }
+  .portada h1 {
+    font-size: 50px;
+    border: 4px solid white;
+    border-radius: 1rem;
+    padding: 20px; }
+    
+.anuncio {
+  text-align: center;
+  color: black; }
+  .anuncio #anuncioIc {
+    font-size: 50px; }
+
+.red-envio {
+  color: #06065a; }
+
+.red-pago {
+  color: #022902; }
+
+.red-instagram {
+  color: #da1380; }
+
+.red-whatsapp {
+  color: #11d411; }
+
+.subAnuncio, .subAnuncio-envio, .subAnuncio-pago, .subAnuncio-instagram, .subAnuncio-whatsapp {
+  font-size: 15px;
+  font-style: italic;
+  color: white; }
+
+.subAnuncio-envio {
+  background-color: #06065a; }
+
+.subAnuncio-pago {
+  background-color: #022902; }
+
+.subAnuncio-instagram {
+  background-color: #da1380; }
+
+.subAnuncio-whatsapp {
+  background-color: #11d411; }
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 10px;
+    padding: 5px; } }
+
+footer {
+  width: auto;
+  height: auto;
+  background-color: rgba(33, 37, 41, var(--bs-bg-opacity, 1));
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  color: white; }
+
+.hambur img {
+  border-radius: 10px;
+}
+ 
+.hambur p {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 20px; }
+
+.nosotros {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.507)), url(../fotos/fondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; }
+  .nosotros p {
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: all 2s; }
+    .nosotros p:hover {
+      background-color: black; }
+
+.contact {
+  background-color: rgba(33, 37, 41, var(--bs-bg-opacity, 1)); }
+
+#contImg {
+  max-width: 250px; }
+  #contImg:hover {
+    transform: scale(2, 2); }
+
+#contactoButton {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  background-color: #ffc107;
+  border-radius: 5px;
+  max-width: 200px; }
+
+textarea {
+  resize: none; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }

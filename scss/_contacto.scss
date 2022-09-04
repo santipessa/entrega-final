@@ -1,0 +1,33 @@
+.contact {
+    background-color: rgba(33, 37, 41, var(--bs-bg-opacity, 1));
+}
+
+#contImg {
+    max-width: 250px;
+
+    &:hover {
+        transform: scale(2, 2);
+    }
+}
+
+
+//   MIXINS   //
+
+@mixin config ($top, $bottom, $font, $back, $borde, $width) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+    font-size: $font;
+    background-color: $back;
+    border-radius: $borde;
+    max-width: $width;
+}
+
+#contactoButton {
+    @include config(10px, 10px, 20px, #ffc107, 5px, 200px);
+}
+
+
+
+textarea {
+    resize: none;
+}

@@ -1,0 +1,15 @@
+ul {
+    font-size: $font20;
+
+    li {
+        a {
+            text-decoration: none;
+
+            &:hover {
+                color: $color-principal  !important;
+                font-size: 25px;
+                text-shadow: 3px 3px rgb(238, 85, 58);
+            }
+        }
+    }
+}
